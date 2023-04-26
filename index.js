@@ -7,7 +7,8 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:3001",
+  // origin: "https://pawpalapp.netlify.app",
+  origin: "http://localhost:3001/",
   credentials: true,
   optionSuccessStatus: 200,
 };
